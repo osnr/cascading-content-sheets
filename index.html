@@ -14,9 +14,54 @@
         It should work both on specific elements and on broader CSS
         selectors (like <code>button</code> or <code>h3</code>).</p>
 
-      <p><a href="https://twitter.com/rsnous/status/1302189421324767235">?</a></p>
+      <p><strong></strong></p>
+
+      <section id="forms">
+        <header><h3>more stuff to <a href="https://twitter.com/rsnous/status/1302189421324767235">play</a> with (<a href="https://github.com/cbracco/html5-test-page/blob/master/index.html">source</a>): form elements</h3></header>
+        <form>
+          <fieldset id="forms__input">
+            <legend>Input fields</legend>
+            <p>
+              <label for="input__text">Text Input</label>
+              <input id="input__text" type="text" placeholder="Text Input">
+            </p>
+            <p>
+              <label for="input__password">Password</label>
+              <input id="input__password" type="password" placeholder="Type your Password">
+            </p>
+            <p>
+              <label for="input__webaddress">Web Address</label>
+              <input id="input__webaddress" type="url" placeholder="http://yoursite.com">
+            </p>
+            <p>
+              <label for="input__emailaddress">Email Address</label>
+              <input id="input__emailaddress" type="email" placeholder="name@email.com">
+            </p>
+            <p>
+              <label for="input__phone">Phone Number</label>
+              <input id="input__phone" type="tel" placeholder="(999) 999-9999">
+            </p>
+            <p>
+              <label for="input__search">Search</label>
+              <input id="input__search" type="search" placeholder="Enter Search Term">
+            </p>
+            <p>
+              <label for="input__text2">Number Input</label>
+              <input id="input__text2" type="number" placeholder="Enter a Number">
+            </p>
+            <p>
+              <label for="input__text3" class="error">Error</label>
+              <input id="input__text3" class="is-error" type="text" placeholder="Text Input">
+            </p>
+            <p>
+              <label for="input__text4" class="valid">Valid</label>
+              <input id="input__text4" class="is-valid" type="text" placeholder="Text Input">
+            </p>
+          </fieldset>
+        </form>
+      </section>
     </article>
-    
+
     <script src="ccs.js"></script>
   </body>
 </html>
